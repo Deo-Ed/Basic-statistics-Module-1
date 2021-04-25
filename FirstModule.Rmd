@@ -47,3 +47,16 @@ mean(HotelAS$days_in_waiting_list)
 cor(HotelAS$days_in_waiting_list, HotelAS$lead_time)
 ```
 
+
+## Reading dataset from GitHub
+##The dataset is about customer churn
+```{r HotelAS, echo=FALSE}
+Churn_="https://raw.githubusercontent.com/Deo-Ed/Basic-statistics-Module-1/master/churn.csv"
+
+Churn<- read_csv(url(Churn_))
+
+head(Churn)
+
+table(Churn$gender)
+```
+
