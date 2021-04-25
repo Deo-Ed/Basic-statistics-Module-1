@@ -1,0 +1,33 @@
+---
+title: "Module 1"
+author: "Deodat Mwesiumo"
+date: "25 4 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is the first module of the basic applied statistics self taught learning process.
+
+
+```{r cars}
+summary(cars)
+head(cars)
+plot(cars$speed, cars$dist)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+
+head(pressure)
+```
+
+
