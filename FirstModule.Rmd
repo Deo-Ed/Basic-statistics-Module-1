@@ -43,5 +43,7 @@ head(HotelAS)
 summary(HotelAS)
 
 mean(HotelAS$days_in_waiting_list)
+
+cor(HotelAS$days_in_waiting_list, HotelAS$lead_time)
 ```
 
