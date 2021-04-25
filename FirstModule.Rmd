@@ -31,3 +31,17 @@ head(pressure)
 ```
 
 
+## Reading dataset from GitHub
+##The dataset is about transactions of hotels 
+```{r HotelAS, echo=FALSE}
+HotelAS_="https://raw.githubusercontent.com/Deo-Ed/Basic-statistics-Module-1/master/HotelAS.csv"
+
+HotelAS<- read_csv(url(HotelAS_))
+
+head(HotelAS)
+
+summary(HotelAS)
+
+mean(HotelAS$days_in_waiting_list)
+```
+
