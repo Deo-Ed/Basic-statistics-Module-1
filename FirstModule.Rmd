@@ -60,5 +60,9 @@ head(Churn)
 table(Churn$gender)
 
 barplot(table(Churn$MultipleLines))
+
+MonModel <- lm(Churn$TotalCharges~Churn$MonthlyCharges)
+
+summary(MonModel)
 ```
 
